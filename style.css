@@ -32,6 +32,7 @@ p {
 }
 
 body {
+  padding: 10px;
   background-color: var(--color-yellow);
   font-family: Figtree, Arial, Helvetica, sans-serif;
 }
@@ -51,17 +52,17 @@ body {
 }
 
 .card {
-  max-width: 384px;
+  max-width: 24rem;
   background-color: var(--color-white);
   padding: var(--spacing-300);
   border-radius: 20px;
   box-shadow: 8px 8px black;
-  border: solid black;
+  border: 1px solid black;
 }
 
 .card-img {
   border-radius: 10px;
-  min-width: 279px;
+  max-width: 100%;
   object-fit: cover;
 }
 
